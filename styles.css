@@ -34,10 +34,14 @@ a {
 
 .main {
     display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .main-image {
     border-radius: 12px;
+    margin: 1rem;
 }
 
 footer>p {
