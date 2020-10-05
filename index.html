@@ -8,7 +8,9 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+
 </head>
+
 
 <body>
     <header>
@@ -28,14 +30,9 @@
             <p>Tech Recruiting professional living in Berlin. Passionate about bringing jobs and
                 talent
                 together.
-
-
             </p>
-            <p>Metalhead and Rock'n'Roll Queen!
-
-
-            </p>
-            <button class="btn btn-primary brand-button">Contact me!</button>
+            <p>Metalhead and Rock'n'Roll Queen!</p>
+            <button class="btn btn-primary brand-button" id="button">Contact me!</button>
         </div>
 
         <img class="main-image" src="./JasminPic.jpg" height="350" />
@@ -45,6 +42,25 @@
         <p>Jasmin Biegemeier | General-Barby-Str. 23 | 13403 Berlin</p>
         <p>j.biegemeier@web.de</p>
     </footer>
+
+    <script>
+        console.log("Hello from JS!")
+        console.log(4 + 4)
+
+        function sum(a, b) {
+            // do wahtever you want 
+            console.log(a + b)
+        }
+        console.log(sum(3, 4))
+        console.log(sum(6, 7))
+
+        document.getElementById("button").addEventListener("click", function () {
+            document.getElementById("about").style.color = "salmon"
+        })
+
+
+
+    </script>
 
 
 
