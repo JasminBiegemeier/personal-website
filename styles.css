@@ -35,8 +35,8 @@ li {
 }
 
 .main-image {
-    border-radius: 12px;
-    margin: 1rem;
+    border-radius: 25%;
+    margin: 2rem;
 }
 
 footer>p {
@@ -72,3 +72,15 @@ footer {
       border-color: salmon;
       color: salmon;
   }
+.brand-button:active,:focus {
+    background-color: lightcoral !important;
+    border-color: lightcoral !important;
+    box-shadow: none !important;
+}
+
+#about {
+    margin-bottom: 2rem;
+}
+.image-box {
+    padding: 2rem;
+}
