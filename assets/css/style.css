@@ -2123,6 +2123,7 @@ hr {
 }
 .slider-height {
   background-image: url(../img/hero/h1_hero.png);
+  /* ratio should be 1920 by a 1000 px*/
   min-height: 1000px;
   background-repeat: no-repeat;
   background-position: center center;
